@@ -2,6 +2,7 @@
 ## Isaac Jimenez y Sebastian Aristizabal
 ## Rossmann Store Sales
 
+## Como correr el contenedor?
   Clona el repositorio https://github.com/isaacj32/Modelos-1
   
   Abre una terminal y situate en el proyecto
