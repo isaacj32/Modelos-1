@@ -9,12 +9,13 @@ def make_prediction(model, input_df):
     return prediction
 
 # Main execution
-if __name__ == "_main_":
-    model = load_model('trained_model.pkl')
-    # Ejemplo de datos de entrada
-    train_data = pd.read_csv("train_data.csv")
-    input_df = train_data.head(10)
+model = load_model('trained_model.pkl')
+# Ejemplo de datos de entrada
+train_data = pd.read_csv("train_data.csv")
+train_data = train_data.drop(columns=["Sales"])
+input_df = train_data.head(10)
 
+print(input_df)
 
-    prediction = make_prediction(model, input_df)
-    print("Predicted Flight Price:", prediction)
+prediction = make_prediction(model, input_df)
+print("Predicted Sales:", prediction)
