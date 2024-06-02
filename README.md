@@ -2,12 +2,10 @@
 ## Isaac Jimenez y Sebastian Aristizabal
 ## Rossmann Store Sales
 
-## Como correr el contenedor?
-  Clona el repositorio https://github.com/isaacj32/Modelos-1
-  
-  Abre una terminal y situate en el proyecto
- 
-  Ejecuta el comando docker build -t "nombre_del_ proyecto" para crear una imagen de Docker
- 
-  Ejecuta el comando docker run -p 3000:3000 "nombre_del_ proyecto" para crear el contenedor
+## Estructura del Proyecto
 
+Fase 1: Limpieza de datos y creación de modelo predictivo.
+
+Fase 2: Dockerizacion del modelo predictivo.
+
+Fase 3: Despliegue de API REST en Docker.
