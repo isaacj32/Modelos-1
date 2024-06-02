@@ -19,7 +19,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 RUN chmod +x entrypoint.sh
 
 # Exponer el puerto que usará la aplicación
-EXPOSE 6000
+EXPOSE 8000
 
 # Especificar el comando para ejecutar la aplicación
 ENTRYPOINT ["./entrypoint.sh"]
