@@ -9,4 +9,4 @@ ls -l /app
 python /app/createModel.py
 
 # Iniciar el servidor Flask
-gunicorn --bind 0.0.0.0:6000 myrestapi:app
+gunicorn --bind 0.0.0.0:8000 myrestapi:app
